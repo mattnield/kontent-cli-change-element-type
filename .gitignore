@@ -1,0 +1,7 @@
+node_modules
+.environments.json
+status.json
+.idea**/*
+Migrations/*.js
+Migrations/**/*.js
+**/.DS_Store
