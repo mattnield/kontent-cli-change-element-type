@@ -1,4 +1,4 @@
-# Kontent.ai CLI - Change Type Example
+# Kontent.ai CLI - Change Element Type Example
 
 This is an example of how to use the Kontent.ai CLI to change the type of a content item element. Kontent.ai does not currently allow you to change the type of an element, so this is a workaround that will deal with both changing the type and updating the data in the element on any existing content items.
 
@@ -21,7 +21,7 @@ To run this example, you'll need to create an empty project in Kontent.ai.  When
 ```sh
 kontent environment add --name DEV --project-id "<YOUR PROJECT ID>" --api-key "<YOUR API KEY>"
 ```
-This creates a named pair of values in the `.environments.json` file, unless you add it to the `.gitignore`.specific project ID and Management API key. 
+This creates a named pair of values in the `.environments.json` file unless you add it to the `.gitignore`.specific project ID and Management API key. 
 
 ## Usage
 
@@ -41,7 +41,7 @@ npm run migrate "01_demo_publishArticlesAfterRestore"
 
 ### Resetting the project
 
-If you want to start again, run the collowing to clear out the environment (WARNING: this will delete ALL content from the repository):
+If you want to start again, run the following to clear out the environment (WARNING: this will delete ALL content from the repository):
 
 ```sh
 kbm --config=clean.json
